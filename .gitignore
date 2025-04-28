@@ -1,0 +1,35 @@
+# 依赖目录
+node_modules/
+
+# 环境文件
+.env
+.env.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+
+# 上传目录
+uploads/
+
+# IDE 文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖
+coverage/
+.nyc_output/
+
+# 本地调试
+*.local
